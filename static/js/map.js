@@ -474,7 +474,7 @@ function sendRouteDataToBackend(start, destination, travelMode) {
   })
     .then((response) => response.json())
     .then((data) => {
-      // console.log("Response from backend:", data);
+      console.log("Response from backend:", data);
 
       // Extract predictions from nested structure
       const predictions = data.predictions.predictions; // Adjusted for the nested structure
