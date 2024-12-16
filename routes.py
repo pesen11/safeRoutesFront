@@ -1,7 +1,7 @@
 import googlemaps
 
 # Initialize Google Maps API
-gmaps = googlemaps.Client(key='AIzaSyBowpT2q3WA66xsVeX6a5eqMN4uWeo4ciI')
+gmaps = googlemaps.Client(key='API_KEY')
 
 def get_neighborhoods_from_routes(directions_result):
     neighborhoods_by_route = []
