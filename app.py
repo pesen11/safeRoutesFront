@@ -5,7 +5,7 @@ from routes import get_neighborhoods_from_routes
 import requests
 
 app = Flask(__name__)
-API_KEY='AIzaSyBowpT2q3WA66xsVeX6a5eqMN4uWeo4ciI'
+API_KEY='API_KEY'
 gmaps=googlemaps.Client(key=API_KEY)
 
 
